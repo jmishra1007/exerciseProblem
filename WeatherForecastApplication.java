@@ -45,8 +45,7 @@ public class WeatherForecastApplication {
         }
         // Simulated method to fetch weather data from an external API
         private WeatherData fetchWeatherData(String zipcode) {
-            // In a real application, make an API call to get weather data
-            // This is just a placeholder
+            // This is just a placeholder we can use in place of weather data(real time data)
             double currentTemp = Math.random() * 30 + 10; // Random temperature between 10 and 40 Celsius
             double highTemp = Math.random() * 10 + 30; // Random high temperature between 30 and 40 Celsius
             double lowTemp = Math.random() * 10 + 5; // Random low temperature between 5 and 15 Celsius
